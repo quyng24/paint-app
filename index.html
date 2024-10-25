@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paint App</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./font/fontawesome-free-6.5.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="tool">
+        <input id="color" type="color">
+        <button id="eraser">
+            <i class="fa-solid fa-eraser"></i>
+        </button>
+        <button id="tru">-</button>
+        <span id="size">1</span>
+        <button id="cong">+</button>
+        <a id="save" download="tenfile.png">
+            <i class="fa-solid fa-save"></i>
+        </a>
+        <button id="clear">x</button>
+    </div>
+    <canvas width="1500" height="800"></canvas>
+    <script src="./script.js"></script>
+</body>
+</html>
